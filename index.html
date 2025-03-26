@@ -6,17 +6,35 @@
     <title>Kilimo Digital</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
-<body class="bg bg-warning">
+<body>
     <div>
         <h1>Kilimo Digital &#127805</h1>
     </div>
     <div>
         <h2>Get Instant Climate Data</h2>
         <input type="text" id="location" placeholder="Enter Location">
-        <button type="button" class="btn btn-success btn-sm">Get Weather Report</button>
+        <button onclick="getweather()" class="btn btn-success btn-sm">Get Weather Report</button>
+
+        <img id="weather-icon" alt="weather icon">
+        <div id="temp-div"></div>
+        <div id="weather-info"></div>
+        <div id="hourly-forecast"></div>
+        <div id="weekly-forecast"></div>
     </div>
+
     <div>
         <h2>Crop Recommendations</h2>
+        <table class ="table my-4">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Location</th>
+                    <th>Weather Prediction</th>
+                    <th>Recommended Activity</th>
+                </tr>
+            </thead>
+
+        </table>
 
 
     </div>
@@ -25,3 +43,6 @@
     <script src="/Js/app.js"></script>
 </body>
 </html>
+
+
+

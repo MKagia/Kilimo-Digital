@@ -5,5 +5,4 @@ Live Weather Updates – Get real-time climate data using a weather API (Meteoso
 Crop to plant Suggestions – Recommends best crops to plant based on location & weather.
 
 # Technologies Used
-HTML, CSS, JavaScript, Meteosource API
-
+HTML, CSS, JavaScript, OPen Weather App API

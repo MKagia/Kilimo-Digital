@@ -1,1 +1,288 @@
-{}
+{
+
+    "location":[
+        {
+            "id": 1,
+            "location": "Nairobi",
+            "prediction": "Sunny",
+            "recommended_activity": "Irrigation and mulching to conserve moisture."
+        },
+        {
+            "id": 2,
+            "location": "Mombasa",
+            "prediction": "Rainy",
+            "recommended_activity": "Avoid planting in waterlogged areas, consider drainage."
+        },
+        {
+            "id": 3,
+            "location": "Kisumu",
+            "prediction": "Cloudy",
+            "recommended_activity": "Ideal for land preparation and crop rotation."
+        },
+        {
+            "id": 4,
+            "location": "Nakuru",
+            "prediction": "Windy",
+            "recommended_activity": "Secure farm structures and protect young plants."
+        },
+        {
+            "id": 5,
+            "location": "Eldoret",
+            "prediction": "Cold",
+            "recommended_activity": "Plant frost-resistant crops and use greenhouses."
+        },
+        {
+            "id": 6,
+            "location": "Thika",
+            "prediction": "Sunny",
+            "recommended_activity": "Water crops early in the morning or late evening."
+        },
+        {
+            "id": 7,
+            "location": "Garissa",
+            "prediction": "Hot",
+            "recommended_activity": "Opt for drought-resistant crops like sorghum and millet."
+        },
+        {
+            "id": 8,
+            "location": "Meru",
+            "prediction": "Showers",
+            "recommended_activity": "Harvest rainwater for irrigation during dry spells."
+        },
+        {
+            "id": 9,
+            "location": "Nyeri",
+            "prediction": "Cool",
+            "recommended_activity": "Prune coffee plants for optimal growth."
+        },
+        {
+            "id": 10,
+            "location": "Kitui",
+            "prediction": "Dry",
+            "recommended_activity": "Encourage agroforestry to improve soil moisture retention."
+        },
+        {
+            "id": 11,
+            "location": "Machakos",
+            "prediction": "Partly Cloudy",
+            "recommended_activity": "Ideal conditions for planting legumes."
+        },
+        {
+            "id": 12,
+            "location": "Turkana",
+            "prediction": "Extremely Hot",
+            "recommended_activity": "Use drip irrigation and shade nets for crops."
+        },
+        {
+            "id": 13,
+            "location": "Kakamega",
+            "prediction": "Humid",
+            "recommended_activity": "Monitor for fungal diseases in maize and beans."
+        },
+        {
+            "id": 14,
+            "location": "Narok",
+            "prediction": "Rainy",
+            "recommended_activity": "Best time for planting pasture for livestock."
+        },
+        {
+            "id": 15,
+            "location": "Laikipia",
+            "prediction": "Sunny",
+            "recommended_activity": "Adopt conservation agriculture to prevent soil erosion."
+        },
+        {
+            "id": 16,
+            "location": "Bungoma",
+            "prediction": "Showers",
+            "recommended_activity": "Prepare for maize planting season."
+        },
+        {
+            "id": 17,
+            "location": "Siaya",
+            "prediction": "Cloudy",
+            "recommended_activity": "Monitor fish ponds for temperature fluctuations."
+        },
+        {
+            "id": 18,
+            "location": "Homa Bay",
+            "prediction": "Warm",
+            "recommended_activity": "Best time for fruit tree grafting."
+        },
+        {
+            "id": 19,
+            "location": "Migori",
+            "prediction": "Stormy",
+            "recommended_activity": "Secure farm structures and avoid chemical spraying."
+        },
+        {
+            "id": 20,
+            "location": "Nyandarua",
+            "prediction": "Cold",
+            "recommended_activity": "Cover sensitive crops to prevent frost damage."
+        },
+        {
+            "id": 21,
+            "location": "Kilifi",
+            "prediction": "Humid",
+            "recommended_activity": "Harvest coconuts and manage pest infestations."
+        },
+        {
+            "id": 22,
+            "location": "Taita Taveta",
+            "prediction": "Warm",
+            "recommended_activity": "Encourage water conservation farming."
+        },
+        {
+            "id": 23,
+            "location": "Baringo",
+            "prediction": "Windy",
+            "recommended_activity": "Protect soil with cover crops to prevent erosion."
+        },
+        {
+            "id": 24,
+            "location": "Vihiga",
+            "prediction": "Wet",
+            "recommended_activity": "Ideal time for rice cultivation."
+        },
+        {
+            "id": 25,
+            "location": "Mandera",
+            "prediction": "Dry",
+            "recommended_activity": "Store fodder for livestock."
+        },
+        {
+            "id": 26,
+            "location": "Kajiado",
+            "prediction": "Sunny",
+            "recommended_activity": "Practice rotational grazing to maintain pasture."
+        },
+        {
+            "id": 27,
+            "location": "Kericho",
+            "prediction": "Rainy",
+            "recommended_activity": "Tea farmers should prepare for harvesting."
+        },
+        {
+            "id": 28,
+            "location": "Isiolo",
+            "prediction": "Hot",
+            "recommended_activity": "Monitor livestock hydration needs."
+        },
+        {
+            "id": 29,
+            "location": "Embu",
+            "prediction": "Cloudy",
+            "recommended_activity": "Best time for transplanting tree seedlings."
+        },
+        {
+            "id": 30,
+            "location": "Busia",
+            "prediction": "Warm",
+            "recommended_activity": "Monitor cassava crops for diseases."
+        },
+        {
+            "id": 31,
+            "location": "Kwale",
+            "prediction": "Sunny",
+            "recommended_activity": "Ideal for coconut and cashew nut harvesting."
+        },
+        {
+            "id": 32,
+            "location": "Tana River",
+            "prediction": "Hot and Dry",
+            "recommended_activity": "Encourage agroforestry and water conservation techniques."
+        },
+        {
+            "id": 33,
+            "location": "Lamu",
+            "prediction": "Humid",
+            "recommended_activity": "Best time for fishing and coastal farming."
+        },
+        {
+            "id": 34,
+            "location": "West Pokot",
+            "prediction": "Cool",
+            "recommended_activity": "Encourage pasture regeneration for livestock."
+        },
+        {
+            "id": 35,
+            "location": "Samburu",
+            "prediction": "Hot and Dry",
+            "recommended_activity": "Stock up on animal feed and water for pastoralism."
+        },
+        {
+            "id": 36,
+            "location": "Trans Nzoia",
+            "prediction": "Rainy",
+            "recommended_activity": "Best time for maize planting and fertilizer application."
+        },
+        {
+            "id": 37,
+            "location": "Uasin Gishu",
+            "prediction": "Cloudy",
+            "recommended_activity": "Ideal conditions for wheat and barley farming."
+        },
+        {
+            "id": 38,
+            "location": "Nandi",
+            "prediction": "Showers",
+            "recommended_activity": "Tea farmers should prepare for leaf plucking."
+        },
+        {
+            "id": 39,
+            "location": "Elgeyo Marakwet",
+            "prediction": "Windy",
+            "recommended_activity": "Secure greenhouses and crop nurseries."
+        },
+        {
+            "id": 40,
+            "location": "Bomet",
+            "prediction": "Rainy",
+            "recommended_activity": "Ideal conditions for dairy farming and fodder planting."
+        },
+        {
+            "id": 41,
+            "location": "Nyamira",
+            "prediction": "Cloudy",
+            "recommended_activity": "Encourage banana farming and soil conservation."
+        },
+        {
+            "id": 42,
+            "location": "Kisii",
+            "prediction": "Showers",
+            "recommended_activity": "Monitor coffee plants for pests and diseases."
+        },
+        {
+            "id": 43,
+            "location": "Marsabit",
+            "prediction": "Hot and Dry",
+            "recommended_activity": "Ensure livestock have adequate water and shade."
+        },
+        {
+            "id": 44,
+            "location": "Wajir",
+            "prediction": "Extremely Hot",
+            "recommended_activity": "Opt for heat-resistant crops and sustainable water use."
+        },
+        {
+            "id": 45,
+            "location": "Murang’a",
+            "prediction": "Cool and Cloudy",
+            "recommended_activity": "Prune coffee and tea plants for better yields."
+        },
+        {
+            "id": 46,
+            "location": "Kirinyaga",
+            "prediction": "Rainy",
+            "recommended_activity": "Ensure rice paddies have proper water levels."
+        },
+        {
+            "id": 47,
+            "location": "Tharaka Nithi",
+            "prediction": "Cloudy",
+            "recommended_activity": "Encourage soil conservation and intercropping."
+        }        
+    ]
+    
+}
