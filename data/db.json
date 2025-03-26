@@ -830,83 +830,82 @@
             }
           }       
     ],
-    "tools": [
+   "tools": [
     {
       "tool_id": 1,
       "tool_name": "Drip Irrigation System",
-      "recommended_for": ["Use drip irrigation and shade nets for crops.", "Store water for irrigation.", "Ensure proper irrigation for crops."],
+      "recommended_for": ["Use drip irrigation to conserve water.", "Store water for irrigation.", "Ensure proper irrigation for crops."],
       "price_kes": 25000
     },
     {
       "tool_id": 2,
       "tool_name": "Mulching Sheets",
-      "recommended_for": ["Irrigation and mulching to conserve moisture.", "Mulching helps retain soil moisture.", "Apply mulch to conserve soil moisture."],
+      "recommended_for": ["Use mulching to retain soil moisture.", "Apply mulch to conserve water.", "Reduce evaporation with mulch."],
       "price_kes": 5000
     },
     {
       "tool_id": 3,
       "tool_name": "Plow and Harrow",
-      "recommended_for": ["Ideal for land preparation and crop rotation.", "Prepare soil for planting.", "Prepare fields for next planting season."],
+      "recommended_for": ["Prepare land for planting.", "Use for soil preparation and crop rotation.", "Improve soil aeration before planting."],
       "price_kes": 15000
     },
     {
       "tool_id": 4,
       "tool_name": "Greenhouse",
-      "recommended_for": ["Plant frost-resistant crops and use greenhouses.", "Use shade nets for crops.", "Use shade nets for young plants."],
+      "recommended_for": ["Protect crops from extreme weather.", "Use shade nets for young plants.", "Grow frost-resistant crops in greenhouses."],
       "price_kes": 120000
     },
     {
       "tool_id": 5,
       "tool_name": "Windbreak Fencing",
-      "recommended_for": ["Secure farm structures and protect young plants.", "Protect young plants from strong winds.", "Use windbreaks to protect crops."],
+      "recommended_for": ["Protect crops from strong winds.", "Secure farm structures from wind damage.", "Shield young plants from harsh weather."],
       "price_kes": 10000
     },
     {
       "tool_id": 6,
       "tool_name": "Water Pumps",
-      "recommended_for": ["Harvest rainwater for irrigation during dry spells.", "Store water for livestock and crops.", "Stock water points for livestock."],
+      "recommended_for": ["Pump water for irrigation.", "Store water for crops and livestock.", "Ensure reliable water supply."],
       "price_kes": 18000
     },
     {
       "tool_id": 7,
       "tool_name": "Pruning Shears",
-      "recommended_for": ["Prune coffee plants for optimal growth.", "Prune coffee and tea plants for better yields.", "Maintain tea plantations and prune old branches."],
+      "recommended_for": ["Prune coffee and tea plants for better yields.", "Maintain orchards by trimming branches.", "Improve plant health through pruning."],
       "price_kes": 2000
     },
     {
       "tool_id": 8,
       "tool_name": "Pest Traps and Sprayers",
-      "recommended_for": ["Monitor for fungal diseases in maize and beans.", "Monitor for pest infestations on fruits.", "Monitor coconut plantations for pests."],
+      "recommended_for": ["Monitor and control pests in crops.", "Prevent fungal diseases in maize and beans.", "Protect plantations from infestations."],
       "price_kes": 7500
     },
     {
       "tool_id": 9,
       "tool_name": "Compost Spreader",
-      "recommended_for": ["Apply fertilizer and mulch coffee plants.", "Apply organic manure to rice fields.", "Apply top dressing fertilizer on maize fields."],
+      "recommended_for": ["Apply organic manure evenly.", "Enhance soil fertility with compost.", "Distribute fertilizer efficiently on fields."],
       "price_kes": 22000
     },
     {
       "tool_id": 10,
       "tool_name": "Rice Paddies Drainage System",
-      "recommended_for": ["Ensure proper drainage for rice fields.", "Encourage rice farming in lowland areas.", "Ideal time for rice cultivation."],
+      "recommended_for": ["Ensure proper drainage in rice fields.", "Control water levels in lowland farming.", "Optimize conditions for rice cultivation."],
       "price_kes": 30000
     },
     {
       "tool_id": 11,
       "tool_name": "Fodder Cutter and Storage",
-      "recommended_for": ["Store fodder for livestock.", "Stockpile fodder for livestock.", "Maintain pastures and plant new fodder."],
+      "recommended_for": ["Cut and store fodder for livestock.", "Stockpile feed for dry seasons.", "Maintain pastures and grow fresh fodder."],
       "price_kes": 15000
     },
     {
       "tool_id": 12,
       "tool_name": "Borehole Drilling Equipment",
-      "recommended_for": ["Dig boreholes for sustainable water supply.", "Encourage water harvesting techniques.", "Ensure livestock have adequate water and shade."],
+      "recommended_for": ["Drill boreholes for sustainable water supply.", "Harvest and store groundwater.", "Ensure livestock have access to water."],
       "price_kes": 250000
     }
   ],
   "cart": [
     {
-      "cart_id": 1,
       "tool_id": 1,
       "tool_name": "Drip Irrigation System",
       "quantity": 2,
@@ -914,7 +913,6 @@
       "total_price": 50000
     },
     {
-      "cart_id": 2,
       "tool_id": 2,
       "tool_name": "Mulching Sheets",
       "quantity": 5,
@@ -922,12 +920,74 @@
       "total_price": 25000
     },
     {
-      "cart_id": 3,
       "tool_id": 3,
       "tool_name": "Plow and Harrow",
       "quantity": 1,
       "price_per_unit": 15000,
       "total_price": 15000
+    },
+    {
+      "tool_id": 4,
+      "tool_name": "Greenhouse",
+      "quantity": 1,
+      "price_per_unit": 120000,
+      "total_price": 120000
+    },
+    {
+      "tool_id": 5,
+      "tool_name": "Windbreak Fencing",
+      "quantity": 3,
+      "price_per_unit": 10000,
+      "total_price": 30000
+    },
+    {
+      "tool_id": 6,
+      "tool_name": "Water Pumps",
+      "quantity": 2,
+      "price_per_unit": 18000,
+      "total_price": 36000
+    },
+    {
+      "tool_id": 7,
+      "tool_name": "Pruning Shears",
+      "quantity": 10,
+      "price_per_unit": 2000,
+      "total_price": 20000
+    },
+    {
+      "tool_id": 8,
+      "tool_name": "Pest Traps and Sprayers",
+      "quantity": 4,
+      "price_per_unit": 7500,
+      "total_price": 30000
+    },
+    {
+      "tool_id": 9,
+      "tool_name": "Compost Spreader",
+      "quantity": 2,
+      "price_per_unit": 22000,
+      "total_price": 44000
+    },
+    {
+      "tool_id": 10,
+      "tool_name": "Rice Paddies Drainage System",
+      "quantity": 1,
+      "price_per_unit": 30000,
+      "total_price": 30000
+    },
+    {
+      "tool_id": 11,
+      "tool_name": "Fodder Cutter and Storage",
+      "quantity": 3,
+      "price_per_unit": 15000,
+      "total_price": 45000
+    },
+    {
+      "tool_id": 12,
+      "tool_name": "Borehole Drilling Equipment",
+      "quantity": 1,
+      "price_per_unit": 250000,
+      "total_price": 250000
     }
   ]
-}
+}  
