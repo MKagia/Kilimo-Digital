@@ -1,288 +1,933 @@
 {
 
-    "location":[
+    "Counties":[
         {
             "id": 1,
             "location": "Nairobi",
-            "prediction": "Sunny",
-            "recommended_activity": "Irrigation and mulching to conserve moisture."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "February": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "March": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "April": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "May": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "June": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "July": { "prediction": "Cold", "recommended_activity": "Plant frost-resistant crops and use greenhouses." },
+              "August": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "September": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "October": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "November": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "December": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." }
+            }
+          },
+          {
             "id": 2,
             "location": "Mombasa",
-            "prediction": "Rainy",
-            "recommended_activity": "Avoid planting in waterlogged areas, consider drainage."
-        },
-        {
-            "id": 3,
-            "location": "Kisumu",
-            "prediction": "Cloudy",
-            "recommended_activity": "Ideal for land preparation and crop rotation."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "February": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "March": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "April": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "May": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "June": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "July": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "August": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "September": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "October": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "November": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "December": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." }
+            }
+          },
+          {
             "id": 4,
             "location": "Nakuru",
-            "prediction": "Windy",
-            "recommended_activity": "Secure farm structures and protect young plants."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "February": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "April": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "May": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "June": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "July": { "prediction": "Cold", "recommended_activity": "Plant frost-resistant crops and use greenhouses." },
+              "August": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "October": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "November": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "December": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." }
+            }
+          },
+          {
             "id": 5,
             "location": "Eldoret",
-            "prediction": "Cold",
-            "recommended_activity": "Plant frost-resistant crops and use greenhouses."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Cold", "recommended_activity": "Plant frost-resistant crops and use greenhouses." },
+              "February": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "April": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "May": { "prediction": "Cold", "recommended_activity": "Plant frost-resistant crops and use greenhouses." },
+              "June": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "July": { "prediction": "Cold", "recommended_activity": "Plant frost-resistant crops and use greenhouses." },
+              "August": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "October": { "prediction": "Cold", "recommended_activity": "Plant frost-resistant crops and use greenhouses." },
+              "November": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "December": { "prediction": "Cold", "recommended_activity": "Plant frost-resistant crops and use greenhouses." }
+            }
+          },
+          {
             "id": 6,
             "location": "Thika",
-            "prediction": "Sunny",
-            "recommended_activity": "Water crops early in the morning or late evening."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Sunny", "recommended_activity": "Water crops early in the morning or late evening." },
+              "February": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "April": { "prediction": "Sunny", "recommended_activity": "Water crops early in the morning or late evening." },
+              "May": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "June": { "prediction": "Sunny", "recommended_activity": "Water crops early in the morning or late evening." },
+              "July": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "August": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "September": { "prediction": "Sunny", "recommended_activity": "Water crops early in the morning or late evening." },
+              "October": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "November": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "December": { "prediction": "Sunny", "recommended_activity": "Water crops early in the morning or late evening." }
+            }
+          },
+          {
             "id": 7,
             "location": "Garissa",
-            "prediction": "Hot",
-            "recommended_activity": "Opt for drought-resistant crops like sorghum and millet."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Hot", "recommended_activity": "Opt for drought-resistant crops like sorghum and millet." },
+              "February": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "March": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "April": { "prediction": "Hot", "recommended_activity": "Opt for drought-resistant crops like sorghum and millet." },
+              "May": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "June": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "July": { "prediction": "Hot", "recommended_activity": "Opt for drought-resistant crops like sorghum and millet." },
+              "August": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "September": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "October": { "prediction": "Hot", "recommended_activity": "Opt for drought-resistant crops like sorghum and millet." },
+              "November": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "December": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." }
+            }
+          },
+          {
             "id": 8,
             "location": "Meru",
-            "prediction": "Showers",
-            "recommended_activity": "Harvest rainwater for irrigation during dry spells."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Showers", "recommended_activity": "Harvest rainwater for irrigation during dry spells." },
+              "February": { "prediction": "Dry", "recommended_activity": "Encourage agroforestry to improve soil moisture retention." },
+              "March": { "prediction": "Showers", "recommended_activity": "Harvest rainwater for irrigation during dry spells." },
+              "April": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "May": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "June": { "prediction": "Cool", "recommended_activity": "Prune coffee plants for optimal growth." },
+              "July": { "prediction": "Showers", "recommended_activity": "Harvest rainwater for irrigation during dry spells." },
+              "August": { "prediction": "Dry", "recommended_activity": "Encourage agroforestry to improve soil moisture retention." },
+              "September": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "October": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "November": { "prediction": "Showers", "recommended_activity": "Harvest rainwater for irrigation during dry spells." },
+              "December": { "prediction": "Dry", "recommended_activity": "Encourage agroforestry to improve soil moisture retention." }
+            }
+          },
+          {
             "id": 9,
             "location": "Nyeri",
-            "prediction": "Cool",
-            "recommended_activity": "Prune coffee plants for optimal growth."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Cool", "recommended_activity": "Prune coffee plants for optimal growth." },
+              "February": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "April": { "prediction": "Cool", "recommended_activity": "Prune coffee plants for optimal growth." },
+              "May": { "prediction": "Showers", "recommended_activity": "Harvest rainwater for irrigation during dry spells." },
+              "June": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "July": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "August": { "prediction": "Cool", "recommended_activity": "Prune coffee plants for optimal growth." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "October": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "November": { "prediction": "Cool", "recommended_activity": "Prune coffee plants for optimal growth." },
+              "December": { "prediction": "Showers", "recommended_activity": "Harvest rainwater for irrigation during dry spells." }
+            }
+          },
+          {
             "id": 10,
             "location": "Kitui",
-            "prediction": "Dry",
-            "recommended_activity": "Encourage agroforestry to improve soil moisture retention."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Dry", "recommended_activity": "Encourage agroforestry to improve soil moisture retention." },
+              "February": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "March": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "April": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "May": { "prediction": "Dry", "recommended_activity": "Encourage agroforestry to improve soil moisture retention." },
+              "June": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "July": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "August": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "September": { "prediction": "Dry", "recommended_activity": "Encourage agroforestry to improve soil moisture retention." },
+              "October": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "November": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "December": { "prediction": "Dry", "recommended_activity": "Encourage agroforestry to improve soil moisture retention." }
+            }
+          },
+          {
             "id": 11,
             "location": "Machakos",
-            "prediction": "Partly Cloudy",
-            "recommended_activity": "Ideal conditions for planting legumes."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Partly Cloudy", "recommended_activity": "Ideal conditions for planting legumes." },
+              "February": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "March": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "April": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "May": { "prediction": "Partly Cloudy", "recommended_activity": "Ideal conditions for planting legumes." },
+              "June": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "July": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "August": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "September": { "prediction": "Partly Cloudy", "recommended_activity": "Ideal conditions for planting legumes." },
+              "October": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "November": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "December": { "prediction": "Partly Cloudy", "recommended_activity": "Ideal conditions for planting legumes." }
+            }
+          },
+          {
             "id": 12,
             "location": "Turkana",
-            "prediction": "Extremely Hot",
-            "recommended_activity": "Use drip irrigation and shade nets for crops."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Extremely Hot", "recommended_activity": "Use drip irrigation and shade nets for crops." },
+              "February": { "prediction": "Hot", "recommended_activity": "Opt for drought-resistant crops like sorghum and millet." },
+              "March": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "April": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "May": { "prediction": "Extremely Hot", "recommended_activity": "Use drip irrigation and shade nets for crops." },
+              "June": { "prediction": "Hot", "recommended_activity": "Opt for drought-resistant crops like sorghum and millet." },
+              "July": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "August": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "September": { "prediction": "Extremely Hot", "recommended_activity": "Use drip irrigation and shade nets for crops." },
+              "October": { "prediction": "Hot", "recommended_activity": "Opt for drought-resistant crops like sorghum and millet." },
+              "November": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "December": { "prediction": "Extremely Hot", "recommended_activity": "Use drip irrigation and shade nets for crops." }
+            }
+          },
+          {
             "id": 13,
             "location": "Kakamega",
-            "prediction": "Humid",
-            "recommended_activity": "Monitor for fungal diseases in maize and beans."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Humid", "recommended_activity": "Monitor for fungal diseases in maize and beans." },
+              "February": { "prediction": "Rainy", "recommended_activity": "Best time for planting pasture for livestock." },
+              "March": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "April": { "prediction": "Humid", "recommended_activity": "Monitor for fungal diseases in maize and beans." },
+              "May": { "prediction": "Rainy", "recommended_activity": "Best time for planting pasture for livestock." },
+              "June": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "July": { "prediction": "Humid", "recommended_activity": "Monitor for fungal diseases in maize and beans." },
+              "August": { "prediction": "Rainy", "recommended_activity": "Best time for planting pasture for livestock." },
+              "September": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "October": { "prediction": "Humid", "recommended_activity": "Monitor for fungal diseases in maize and beans." },
+              "November": { "prediction": "Rainy", "recommended_activity": "Best time for planting pasture for livestock." },
+              "December": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." }
+            }
+          },
+          {
             "id": 14,
             "location": "Narok",
-            "prediction": "Rainy",
-            "recommended_activity": "Best time for planting pasture for livestock."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Rainy", "recommended_activity": "Best time for planting pasture for livestock." },
+              "February": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "March": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "April": { "prediction": "Rainy", "recommended_activity": "Best time for planting pasture for livestock." },
+              "May": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "June": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "July": { "prediction": "Rainy", "recommended_activity": "Best time for planting pasture for livestock." },
+              "August": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "September": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "October": { "prediction": "Rainy", "recommended_activity": "Best time for planting pasture for livestock." },
+              "November": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "December": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." }
+            }
+          },
+          {
             "id": 15,
             "location": "Laikipia",
-            "prediction": "Sunny",
-            "recommended_activity": "Adopt conservation agriculture to prevent soil erosion."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Sunny", "recommended_activity": "Adopt conservation agriculture to prevent soil erosion." },
+              "February": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Avoid planting in waterlogged areas, consider drainage." },
+              "April": { "prediction": "Sunny", "recommended_activity": "Adopt conservation agriculture to prevent soil erosion." },
+              "May": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "June": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "July": { "prediction": "Sunny", "recommended_activity": "Adopt conservation agriculture to prevent soil erosion." },
+              "August": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "September": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "October": { "prediction": "Sunny", "recommended_activity": "Adopt conservation agriculture to prevent soil erosion." },
+              "November": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "December": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." }
+            }
+          },
+          {
             "id": 16,
             "location": "Bungoma",
-            "prediction": "Showers",
-            "recommended_activity": "Prepare for maize planting season."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Showers", "recommended_activity": "Prepare for maize planting season." },
+              "February": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Best time for planting maize." },
+              "April": { "prediction": "Showers", "recommended_activity": "Prepare for maize planting season." },
+              "May": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Best time for planting maize." },
+              "July": { "prediction": "Showers", "recommended_activity": "Prepare for maize planting season." },
+              "August": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Best time for planting maize." },
+              "October": { "prediction": "Showers", "recommended_activity": "Prepare for maize planting season." },
+              "November": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Best time for planting maize." }
+            }
+          },
+          {
             "id": 17,
             "location": "Siaya",
-            "prediction": "Cloudy",
-            "recommended_activity": "Monitor fish ponds for temperature fluctuations."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Cloudy", "recommended_activity": "Monitor fish ponds for temperature fluctuations." },
+              "February": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Avoid fish farming in flood-prone areas." },
+              "April": { "prediction": "Cloudy", "recommended_activity": "Monitor fish ponds for temperature fluctuations." },
+              "May": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Avoid fish farming in flood-prone areas." },
+              "July": { "prediction": "Cloudy", "recommended_activity": "Monitor fish ponds for temperature fluctuations." },
+              "August": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Avoid fish farming in flood-prone areas." },
+              "October": { "prediction": "Cloudy", "recommended_activity": "Monitor fish ponds for temperature fluctuations." },
+              "November": { "prediction": "Windy", "recommended_activity": "Secure farm structures and protect young plants." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Avoid fish farming in flood-prone areas." }
+            }
+          },
+          {
             "id": 18,
             "location": "Homa Bay",
-            "prediction": "Warm",
-            "recommended_activity": "Best time for fruit tree grafting."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Warm", "recommended_activity": "Best time for fruit tree grafting." },
+              "February": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "March": { "prediction": "Cloudy", "recommended_activity": "Monitor for pest infestations on fruits." },
+              "April": { "prediction": "Warm", "recommended_activity": "Best time for fruit tree grafting." },
+              "May": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "June": { "prediction": "Cloudy", "recommended_activity": "Monitor for pest infestations on fruits." },
+              "July": { "prediction": "Warm", "recommended_activity": "Best time for fruit tree grafting." },
+              "August": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "September": { "prediction": "Cloudy", "recommended_activity": "Monitor for pest infestations on fruits." },
+              "October": { "prediction": "Warm", "recommended_activity": "Best time for fruit tree grafting." },
+              "November": { "prediction": "Sunny", "recommended_activity": "Irrigation and mulching to conserve moisture." },
+              "December": { "prediction": "Cloudy", "recommended_activity": "Monitor for pest infestations on fruits." }
+            }
+          },
+          {
             "id": 19,
             "location": "Migori",
-            "prediction": "Stormy",
-            "recommended_activity": "Secure farm structures and avoid chemical spraying."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Stormy", "recommended_activity": "Secure farm structures and avoid chemical spraying." },
+              "February": { "prediction": "Rainy", "recommended_activity": "Best time for planting pasture for livestock." },
+              "March": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "April": { "prediction": "Stormy", "recommended_activity": "Secure farm structures and avoid chemical spraying." },
+              "May": { "prediction": "Rainy", "recommended_activity": "Best time for planting pasture for livestock." },
+              "June": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "July": { "prediction": "Stormy", "recommended_activity": "Secure farm structures and avoid chemical spraying." },
+              "August": { "prediction": "Rainy", "recommended_activity": "Best time for planting pasture for livestock." },
+              "September": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "October": { "prediction": "Stormy", "recommended_activity": "Secure farm structures and avoid chemical spraying." },
+              "November": { "prediction": "Rainy", "recommended_activity": "Best time for planting pasture for livestock." },
+              "December": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." }
+            }
+          },
+          {
             "id": 20,
             "location": "Nyandarua",
-            "prediction": "Cold",
-            "recommended_activity": "Cover sensitive crops to prevent frost damage."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Cold", "recommended_activity": "Cover sensitive crops to prevent frost damage." },
+              "February": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Monitor for waterlogging in fields." },
+              "April": { "prediction": "Cold", "recommended_activity": "Cover sensitive crops to prevent frost damage." },
+              "May": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Monitor for waterlogging in fields." },
+              "July": { "prediction": "Cold", "recommended_activity": "Cover sensitive crops to prevent frost damage." },
+              "August": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Monitor for waterlogging in fields." },
+              "October": { "prediction": "Cold", "recommended_activity": "Cover sensitive crops to prevent frost damage." },
+              "November": { "prediction": "Cloudy", "recommended_activity": "Ideal for land preparation and crop rotation." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Monitor for waterlogging in fields." }
+            }
+          },
+          {
             "id": 21,
             "location": "Kilifi",
-            "prediction": "Humid",
-            "recommended_activity": "Harvest coconuts and manage pest infestations."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Humid", "recommended_activity": "Harvest coconuts and manage pest infestations." },
+              "February": { "prediction": "Sunny", "recommended_activity": "Mulching helps retain soil moisture." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Prepare for increased pest activity." },
+              "April": { "prediction": "Humid", "recommended_activity": "Harvest coconuts and manage pest infestations." },
+              "May": { "prediction": "Sunny", "recommended_activity": "Mulching helps retain soil moisture." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Prepare for increased pest activity." },
+              "July": { "prediction": "Humid", "recommended_activity": "Harvest coconuts and manage pest infestations." },
+              "August": { "prediction": "Sunny", "recommended_activity": "Mulching helps retain soil moisture." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Prepare for increased pest activity." },
+              "October": { "prediction": "Humid", "recommended_activity": "Harvest coconuts and manage pest infestations." },
+              "November": { "prediction": "Sunny", "recommended_activity": "Mulching helps retain soil moisture." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Prepare for increased pest activity." }
+            }
+          },
+          {
             "id": 22,
             "location": "Taita Taveta",
-            "prediction": "Warm",
-            "recommended_activity": "Encourage water conservation farming."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Warm", "recommended_activity": "Encourage water conservation farming." },
+              "February": { "prediction": "Dry", "recommended_activity": "Store water for irrigation." },
+              "March": { "prediction": "Cloudy", "recommended_activity": "Monitor crops for disease." },
+              "April": { "prediction": "Warm", "recommended_activity": "Encourage water conservation farming." },
+              "May": { "prediction": "Dry", "recommended_activity": "Store water for irrigation." },
+              "June": { "prediction": "Cloudy", "recommended_activity": "Monitor crops for disease." },
+              "July": { "prediction": "Warm", "recommended_activity": "Encourage water conservation farming." },
+              "August": { "prediction": "Dry", "recommended_activity": "Store water for irrigation." },
+              "September": { "prediction": "Cloudy", "recommended_activity": "Monitor crops for disease." },
+              "October": { "prediction": "Warm", "recommended_activity": "Encourage water conservation farming." },
+              "November": { "prediction": "Dry", "recommended_activity": "Store water for irrigation." },
+              "December": { "prediction": "Cloudy", "recommended_activity": "Monitor crops for disease." }
+            }
+          },
+          {
             "id": 23,
             "location": "Baringo",
-            "prediction": "Windy",
-            "recommended_activity": "Protect soil with cover crops to prevent erosion."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Windy", "recommended_activity": "Protect soil with cover crops to prevent erosion." },
+              "February": { "prediction": "Sunny", "recommended_activity": "Water crops early to reduce evaporation." },
+              "March": { "prediction": "Cloudy", "recommended_activity": "Prepare soil for planting." },
+              "April": { "prediction": "Windy", "recommended_activity": "Protect soil with cover crops to prevent erosion." },
+              "May": { "prediction": "Sunny", "recommended_activity": "Water crops early to reduce evaporation." },
+              "June": { "prediction": "Cloudy", "recommended_activity": "Prepare soil for planting." },
+              "July": { "prediction": "Windy", "recommended_activity": "Protect soil with cover crops to prevent erosion." },
+              "August": { "prediction": "Sunny", "recommended_activity": "Water crops early to reduce evaporation." },
+              "September": { "prediction": "Cloudy", "recommended_activity": "Prepare soil for planting." },
+              "October": { "prediction": "Windy", "recommended_activity": "Protect soil with cover crops to prevent erosion." },
+              "November": { "prediction": "Sunny", "recommended_activity": "Water crops early to reduce evaporation." },
+              "December": { "prediction": "Cloudy", "recommended_activity": "Prepare soil for planting." }
+            }
+          },
+          {
             "id": 24,
             "location": "Vihiga",
-            "prediction": "Wet",
-            "recommended_activity": "Ideal time for rice cultivation."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Wet", "recommended_activity": "Ideal time for rice cultivation." },
+              "February": { "prediction": "Humid", "recommended_activity": "Monitor for fungal diseases in crops." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Ensure proper drainage for rice fields." },
+              "April": { "prediction": "Wet", "recommended_activity": "Ideal time for rice cultivation." },
+              "May": { "prediction": "Humid", "recommended_activity": "Monitor for fungal diseases in crops." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Ensure proper drainage for rice fields." },
+              "July": { "prediction": "Wet", "recommended_activity": "Ideal time for rice cultivation." },
+              "August": { "prediction": "Humid", "recommended_activity": "Monitor for fungal diseases in crops." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Ensure proper drainage for rice fields." },
+              "October": { "prediction": "Wet", "recommended_activity": "Ideal time for rice cultivation." },
+              "November": { "prediction": "Humid", "recommended_activity": "Monitor for fungal diseases in crops." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Ensure proper drainage for rice fields." }
+            }
+          },
+          {
             "id": 25,
             "location": "Mandera",
-            "prediction": "Dry",
-            "recommended_activity": "Store fodder for livestock."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Dry", "recommended_activity": "Store fodder for livestock." },
+              "February": { "prediction": "Extremely Hot", "recommended_activity": "Use shade nets for crops." },
+              "March": { "prediction": "Sunny", "recommended_activity": "Water crops during cooler hours." },
+              "April": { "prediction": "Dry", "recommended_activity": "Store fodder for livestock." },
+              "May": { "prediction": "Extremely Hot", "recommended_activity": "Use shade nets for crops." },
+              "June": { "prediction": "Sunny", "recommended_activity": "Water crops during cooler hours." },
+              "July": { "prediction": "Dry", "recommended_activity": "Store fodder for livestock." },
+              "August": { "prediction": "Extremely Hot", "recommended_activity": "Use shade nets for crops." },
+              "September": { "prediction": "Sunny", "recommended_activity": "Water crops during cooler hours." },
+              "October": { "prediction": "Dry", "recommended_activity": "Store fodder for livestock." },
+              "November": { "prediction": "Extremely Hot", "recommended_activity": "Use shade nets for crops." },
+              "December": { "prediction": "Sunny", "recommended_activity": "Water crops during cooler hours." }
+            }
+          },
+          {
             "id": 26,
             "location": "Kajiado",
-            "prediction": "Sunny",
-            "recommended_activity": "Practice rotational grazing to maintain pasture."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Sunny", "recommended_activity": "Practice rotational grazing to maintain pasture." },
+              "February": { "prediction": "Hot", "recommended_activity": "Ensure water sources for livestock." },
+              "March": { "prediction": "Windy", "recommended_activity": "Protect young plants from strong winds." },
+              "April": { "prediction": "Sunny", "recommended_activity": "Practice rotational grazing to maintain pasture." },
+              "May": { "prediction": "Hot", "recommended_activity": "Ensure water sources for livestock." },
+              "June": { "prediction": "Windy", "recommended_activity": "Protect young plants from strong winds." },
+              "July": { "prediction": "Sunny", "recommended_activity": "Practice rotational grazing to maintain pasture." },
+              "August": { "prediction": "Hot", "recommended_activity": "Ensure water sources for livestock." },
+              "September": { "prediction": "Windy", "recommended_activity": "Protect young plants from strong winds." },
+              "October": { "prediction": "Sunny", "recommended_activity": "Practice rotational grazing to maintain pasture." },
+              "November": { "prediction": "Hot", "recommended_activity": "Ensure water sources for livestock." },
+              "December": { "prediction": "Windy", "recommended_activity": "Protect young plants from strong winds." }
+            }
+          },
+          {
             "id": 27,
             "location": "Kericho",
-            "prediction": "Rainy",
-            "recommended_activity": "Tea farmers should prepare for harvesting."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Rainy", "recommended_activity": "Tea farmers should prepare for harvesting." },
+              "February": { "prediction": "Cloudy", "recommended_activity": "Monitor for fungal diseases in tea plantations." },
+              "March": { "prediction": "Wet", "recommended_activity": "Improve drainage in tea fields." },
+              "April": { "prediction": "Rainy", "recommended_activity": "Tea farmers should prepare for harvesting." },
+              "May": { "prediction": "Cloudy", "recommended_activity": "Monitor for fungal diseases in tea plantations." },
+              "June": { "prediction": "Wet", "recommended_activity": "Improve drainage in tea fields." },
+              "July": { "prediction": "Rainy", "recommended_activity": "Tea farmers should prepare for harvesting." },
+              "August": { "prediction": "Cloudy", "recommended_activity": "Monitor for fungal diseases in tea plantations." },
+              "September": { "prediction": "Wet", "recommended_activity": "Improve drainage in tea fields." },
+              "October": { "prediction": "Rainy", "recommended_activity": "Tea farmers should prepare for harvesting." },
+              "November": { "prediction": "Cloudy", "recommended_activity": "Monitor for fungal diseases in tea plantations." },
+              "December": { "prediction": "Wet", "recommended_activity": "Improve drainage in tea fields." }
+            }
+          },
+          {
             "id": 28,
             "location": "Isiolo",
-            "prediction": "Hot",
-            "recommended_activity": "Monitor livestock hydration needs."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Hot", "recommended_activity": "Monitor livestock hydration needs." },
+              "February": { "prediction": "Extremely Hot", "recommended_activity": "Use shade nets for young plants." },
+              "March": { "prediction": "Dry", "recommended_activity": "Store water for livestock and crops." },
+              "April": { "prediction": "Hot", "recommended_activity": "Monitor livestock hydration needs." },
+              "May": { "prediction": "Extremely Hot", "recommended_activity": "Use shade nets for young plants." },
+              "June": { "prediction": "Dry", "recommended_activity": "Store water for livestock and crops." },
+              "July": { "prediction": "Hot", "recommended_activity": "Monitor livestock hydration needs." },
+              "August": { "prediction": "Extremely Hot", "recommended_activity": "Use shade nets for young plants." },
+              "September": { "prediction": "Dry", "recommended_activity": "Store water for livestock and crops." },
+              "October": { "prediction": "Hot", "recommended_activity": "Monitor livestock hydration needs." },
+              "November": { "prediction": "Extremely Hot", "recommended_activity": "Use shade nets for young plants." },
+              "December": { "prediction": "Dry", "recommended_activity": "Store water for livestock and crops." }
+            }
+          },
+          {
             "id": 29,
             "location": "Embu",
-            "prediction": "Cloudy",
-            "recommended_activity": "Best time for transplanting tree seedlings."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Cloudy", "recommended_activity": "Best time for transplanting tree seedlings." },
+              "February": { "prediction": "Warm", "recommended_activity": "Water fruit trees regularly." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Prepare for coffee and macadamia planting." },
+              "April": { "prediction": "Cloudy", "recommended_activity": "Best time for transplanting tree seedlings." },
+              "May": { "prediction": "Warm", "recommended_activity": "Water fruit trees regularly." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Prepare for coffee and macadamia planting." },
+              "July": { "prediction": "Cloudy", "recommended_activity": "Best time for transplanting tree seedlings." },
+              "August": { "prediction": "Warm", "recommended_activity": "Water fruit trees regularly." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Prepare for coffee and macadamia planting." },
+              "October": { "prediction": "Cloudy", "recommended_activity": "Best time for transplanting tree seedlings." },
+              "November": { "prediction": "Warm", "recommended_activity": "Water fruit trees regularly." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Prepare for coffee and macadamia planting." }
+            }
+          },
+          {
             "id": 30,
             "location": "Busia",
-            "prediction": "Warm",
-            "recommended_activity": "Monitor cassava crops for diseases."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Warm", "recommended_activity": "Monitor cassava crops for diseases." },
+              "February": { "prediction": "Humid", "recommended_activity": "Check maize crops for pest infestations." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Prepare fields for planting maize." },
+              "April": { "prediction": "Warm", "recommended_activity": "Monitor cassava crops for diseases." },
+              "May": { "prediction": "Humid", "recommended_activity": "Check maize crops for pest infestations." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Prepare fields for planting maize." },
+              "July": { "prediction": "Warm", "recommended_activity": "Monitor cassava crops for diseases." },
+              "August": { "prediction": "Humid", "recommended_activity": "Check maize crops for pest infestations." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Prepare fields for planting maize." },
+              "October": { "prediction": "Warm", "recommended_activity": "Monitor cassava crops for diseases." },
+              "November": { "prediction": "Humid", "recommended_activity": "Check maize crops for pest infestations." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Prepare fields for planting maize." }
+            }
+          },
+          {
             "id": 31,
             "location": "Kwale",
-            "prediction": "Sunny",
-            "recommended_activity": "Ideal for coconut and cashew nut harvesting."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Sunny", "recommended_activity": "Ideal for coconut and cashew nut harvesting." },
+              "February": { "prediction": "Hot", "recommended_activity": "Irrigate mango plantations early morning or late evening." },
+              "March": { "prediction": "Humid", "recommended_activity": "Monitor for fruit fly infestations in cashew farms." },
+              "April": { "prediction": "Sunny", "recommended_activity": "Ideal for coconut and cashew nut harvesting." },
+              "May": { "prediction": "Hot", "recommended_activity": "Irrigate mango plantations early morning or late evening." },
+              "June": { "prediction": "Humid", "recommended_activity": "Monitor for fruit fly infestations in cashew farms." },
+              "July": { "prediction": "Sunny", "recommended_activity": "Ideal for coconut and cashew nut harvesting." },
+              "August": { "prediction": "Hot", "recommended_activity": "Irrigate mango plantations early morning or late evening." },
+              "September": { "prediction": "Humid", "recommended_activity": "Monitor for fruit fly infestations in cashew farms." },
+              "October": { "prediction": "Sunny", "recommended_activity": "Ideal for coconut and cashew nut harvesting." },
+              "November": { "prediction": "Hot", "recommended_activity": "Irrigate mango plantations early morning or late evening." },
+              "December": { "prediction": "Humid", "recommended_activity": "Monitor for fruit fly infestations in cashew farms." }
+            }
+          },
+          {
             "id": 32,
             "location": "Tana River",
-            "prediction": "Hot and Dry",
-            "recommended_activity": "Encourage agroforestry and water conservation techniques."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Hot and Dry", "recommended_activity": "Encourage agroforestry and water conservation techniques." },
+              "February": { "prediction": "Extremely Hot", "recommended_activity": "Implement drought-resistant farming techniques." },
+              "March": { "prediction": "Windy", "recommended_activity": "Secure crops from strong winds and erosion." },
+              "April": { "prediction": "Hot and Dry", "recommended_activity": "Encourage agroforestry and water conservation techniques." },
+              "May": { "prediction": "Extremely Hot", "recommended_activity": "Implement drought-resistant farming techniques." },
+              "June": { "prediction": "Windy", "recommended_activity": "Secure crops from strong winds and erosion." },
+              "July": { "prediction": "Hot and Dry", "recommended_activity": "Encourage agroforestry and water conservation techniques." },
+              "August": { "prediction": "Extremely Hot", "recommended_activity": "Implement drought-resistant farming techniques." },
+              "September": { "prediction": "Windy", "recommended_activity": "Secure crops from strong winds and erosion." },
+              "October": { "prediction": "Hot and Dry", "recommended_activity": "Encourage agroforestry and water conservation techniques." },
+              "November": { "prediction": "Extremely Hot", "recommended_activity": "Implement drought-resistant farming techniques." },
+              "December": { "prediction": "Windy", "recommended_activity": "Secure crops from strong winds and erosion." }
+            }
+          },
+          {
             "id": 33,
             "location": "Lamu",
-            "prediction": "Humid",
-            "recommended_activity": "Best time for fishing and coastal farming."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Humid", "recommended_activity": "Best time for fishing and coastal farming." },
+              "February": { "prediction": "Hot", "recommended_activity": "Monitor coconut plantations for pests." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Encourage rice farming in lowland areas." },
+              "April": { "prediction": "Humid", "recommended_activity": "Best time for fishing and coastal farming." },
+              "May": { "prediction": "Hot", "recommended_activity": "Monitor coconut plantations for pests." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Encourage rice farming in lowland areas." },
+              "July": { "prediction": "Humid", "recommended_activity": "Best time for fishing and coastal farming." },
+              "August": { "prediction": "Hot", "recommended_activity": "Monitor coconut plantations for pests." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Encourage rice farming in lowland areas." },
+              "October": { "prediction": "Humid", "recommended_activity": "Best time for fishing and coastal farming." },
+              "November": { "prediction": "Hot", "recommended_activity": "Monitor coconut plantations for pests." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Encourage rice farming in lowland areas." }
+            }
+          },
+          {
             "id": 34,
             "location": "West Pokot",
-            "prediction": "Cool",
-            "recommended_activity": "Encourage pasture regeneration for livestock."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Cool", "recommended_activity": "Encourage pasture regeneration for livestock." },
+              "February": { "prediction": "Dry", "recommended_activity": "Stock water points for livestock." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Ideal time for planting beans and maize." },
+              "April": { "prediction": "Cool", "recommended_activity": "Encourage pasture regeneration for livestock." },
+              "May": { "prediction": "Dry", "recommended_activity": "Stock water points for livestock." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Ideal time for planting beans and maize." },
+              "July": { "prediction": "Cool", "recommended_activity": "Encourage pasture regeneration for livestock." },
+              "August": { "prediction": "Dry", "recommended_activity": "Stock water points for livestock." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Ideal time for planting beans and maize." },
+              "October": { "prediction": "Cool", "recommended_activity": "Encourage pasture regeneration for livestock." },
+              "November": { "prediction": "Dry", "recommended_activity": "Stock water points for livestock." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Ideal time for planting beans and maize." }
+            }
+          },
+          {
             "id": 35,
             "location": "Samburu",
-            "prediction": "Hot and Dry",
-            "recommended_activity": "Stock up on animal feed and water for pastoralism."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Hot and Dry", "recommended_activity": "Stock up on animal feed and water for pastoralism." },
+              "February": { "prediction": "Extremely Hot", "recommended_activity": "Dig boreholes for sustainable water supply." },
+              "March": { "prediction": "Windy", "recommended_activity": "Secure grazing fields to prevent soil erosion." },
+              "April": { "prediction": "Hot and Dry", "recommended_activity": "Stock up on animal feed and water for pastoralism." },
+              "May": { "prediction": "Extremely Hot", "recommended_activity": "Dig boreholes for sustainable water supply." },
+              "June": { "prediction": "Windy", "recommended_activity": "Secure grazing fields to prevent soil erosion." },
+              "July": { "prediction": "Hot and Dry", "recommended_activity": "Stock up on animal feed and water for pastoralism." },
+              "August": { "prediction": "Extremely Hot", "recommended_activity": "Dig boreholes for sustainable water supply." },
+              "September": { "prediction": "Windy", "recommended_activity": "Secure grazing fields to prevent soil erosion." },
+              "October": { "prediction": "Hot and Dry", "recommended_activity": "Stock up on animal feed and water for pastoralism." },
+              "November": { "prediction": "Extremely Hot", "recommended_activity": "Dig boreholes for sustainable water supply." },
+              "December": { "prediction": "Windy", "recommended_activity": "Secure grazing fields to prevent soil erosion." }
+            }
+          },
+          {
             "id": 36,
             "location": "Trans Nzoia",
-            "prediction": "Rainy",
-            "recommended_activity": "Best time for maize planting and fertilizer application."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Rainy", "recommended_activity": "Best time for maize planting and fertilizer application." },
+              "February": { "prediction": "Cloudy", "recommended_activity": "Prepare fields for next planting season." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Apply top dressing fertilizer on maize fields." },
+              "April": { "prediction": "Rainy", "recommended_activity": "Best time for maize planting and fertilizer application." },
+              "May": { "prediction": "Cloudy", "recommended_activity": "Prepare fields for next planting season." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Apply top dressing fertilizer on maize fields." },
+              "July": { "prediction": "Rainy", "recommended_activity": "Best time for maize planting and fertilizer application." },
+              "August": { "prediction": "Cloudy", "recommended_activity": "Prepare fields for next planting season." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Apply top dressing fertilizer on maize fields." },
+              "October": { "prediction": "Rainy", "recommended_activity": "Best time for maize planting and fertilizer application." },
+              "November": { "prediction": "Cloudy", "recommended_activity": "Prepare fields for next planting season." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Apply top dressing fertilizer on maize fields." }
+            }
+          },
+          {
             "id": 37,
             "location": "Uasin Gishu",
-            "prediction": "Cloudy",
-            "recommended_activity": "Ideal conditions for wheat and barley farming."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Cloudy", "recommended_activity": "Ideal conditions for wheat and barley farming." },
+              "February": { "prediction": "Sunny", "recommended_activity": "Prepare land for wheat and barley planting." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Apply fertilizer and monitor crop growth." },
+              "April": { "prediction": "Cloudy", "recommended_activity": "Ideal conditions for wheat and barley farming." },
+              "May": { "prediction": "Sunny", "recommended_activity": "Prepare land for wheat and barley planting." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Apply fertilizer and monitor crop growth." },
+              "July": { "prediction": "Cloudy", "recommended_activity": "Ideal conditions for wheat and barley farming." },
+              "August": { "prediction": "Sunny", "recommended_activity": "Prepare land for wheat and barley planting." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Apply fertilizer and monitor crop growth." },
+              "October": { "prediction": "Cloudy", "recommended_activity": "Ideal conditions for wheat and barley farming." },
+              "November": { "prediction": "Sunny", "recommended_activity": "Prepare land for wheat and barley planting." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Apply fertilizer and monitor crop growth." }
+            }
+          },
+          {
             "id": 38,
             "location": "Nandi",
-            "prediction": "Showers",
-            "recommended_activity": "Tea farmers should prepare for leaf plucking."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Showers", "recommended_activity": "Tea farmers should prepare for leaf plucking." },
+              "February": { "prediction": "Cloudy", "recommended_activity": "Maintain tea plantations and prune old branches." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Best time for planting new tea bushes." },
+              "April": { "prediction": "Showers", "recommended_activity": "Tea farmers should prepare for leaf plucking." },
+              "May": { "prediction": "Cloudy", "recommended_activity": "Maintain tea plantations and prune old branches." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Best time for planting new tea bushes." },
+              "July": { "prediction": "Showers", "recommended_activity": "Tea farmers should prepare for leaf plucking." },
+              "August": { "prediction": "Cloudy", "recommended_activity": "Maintain tea plantations and prune old branches." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Best time for planting new tea bushes." },
+              "October": { "prediction": "Showers", "recommended_activity": "Tea farmers should prepare for leaf plucking." },
+              "November": { "prediction": "Cloudy", "recommended_activity": "Maintain tea plantations and prune old branches." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Best time for planting new tea bushes." }
+            }
+          },
+          {
             "id": 39,
             "location": "Elgeyo Marakwet",
-            "prediction": "Windy",
-            "recommended_activity": "Secure greenhouses and crop nurseries."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Windy", "recommended_activity": "Secure greenhouses and crop nurseries." },
+              "February": { "prediction": "Cold", "recommended_activity": "Use windbreaks to protect crops." },
+              "March": { "prediction": "Cloudy", "recommended_activity": "Start nursery preparation for vegetables." },
+              "April": { "prediction": "Windy", "recommended_activity": "Secure greenhouses and crop nurseries." },
+              "May": { "prediction": "Cold", "recommended_activity": "Use windbreaks to protect crops." },
+              "June": { "prediction": "Cloudy", "recommended_activity": "Start nursery preparation for vegetables." },
+              "July": { "prediction": "Windy", "recommended_activity": "Secure greenhouses and crop nurseries." },
+              "August": { "prediction": "Cold", "recommended_activity": "Use windbreaks to protect crops." },
+              "September": { "prediction": "Cloudy", "recommended_activity": "Start nursery preparation for vegetables." },
+              "October": { "prediction": "Windy", "recommended_activity": "Secure greenhouses and crop nurseries." },
+              "November": { "prediction": "Cold", "recommended_activity": "Use windbreaks to protect crops." },
+              "December": { "prediction": "Cloudy", "recommended_activity": "Start nursery preparation for vegetables." }
+            }
+          },
+          {
             "id": 40,
             "location": "Bomet",
-            "prediction": "Rainy",
-            "recommended_activity": "Ideal conditions for dairy farming and fodder planting."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Rainy", "recommended_activity": "Ideal conditions for dairy farming and fodder planting." },
+              "February": { "prediction": "Cool", "recommended_activity": "Maintain pastures and plant new fodder." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Harvest milk and prepare silage." },
+              "April": { "prediction": "Rainy", "recommended_activity": "Ideal conditions for dairy farming and fodder planting." },
+              "May": { "prediction": "Cool", "recommended_activity": "Maintain pastures and plant new fodder." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Harvest milk and prepare silage." },
+              "July": { "prediction": "Rainy", "recommended_activity": "Ideal conditions for dairy farming and fodder planting." },
+              "August": { "prediction": "Cool", "recommended_activity": "Maintain pastures and plant new fodder." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Harvest milk and prepare silage." },
+              "October": { "prediction": "Rainy", "recommended_activity": "Ideal conditions for dairy farming and fodder planting." },
+              "November": { "prediction": "Cool", "recommended_activity": "Maintain pastures and plant new fodder." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Harvest milk and prepare silage." }
+            }
+          },
+          {
             "id": 41,
             "location": "Nyamira",
-            "prediction": "Cloudy",
-            "recommended_activity": "Encourage banana farming and soil conservation."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Cloudy", "recommended_activity": "Encourage banana farming and soil conservation." },
+              "February": { "prediction": "Showers", "recommended_activity": "Prepare land for banana planting." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Apply manure and mulch banana plants." },
+              "April": { "prediction": "Cloudy", "recommended_activity": "Encourage banana farming and soil conservation." },
+              "May": { "prediction": "Showers", "recommended_activity": "Prepare land for banana planting." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Apply manure and mulch banana plants." },
+              "July": { "prediction": "Cloudy", "recommended_activity": "Encourage banana farming and soil conservation." },
+              "August": { "prediction": "Showers", "recommended_activity": "Prepare land for banana planting." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Apply manure and mulch banana plants." },
+              "October": { "prediction": "Cloudy", "recommended_activity": "Encourage banana farming and soil conservation." },
+              "November": { "prediction": "Showers", "recommended_activity": "Prepare land for banana planting." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Apply manure and mulch banana plants." }
+            }
+          },
+          {
             "id": 42,
             "location": "Kisii",
-            "prediction": "Showers",
-            "recommended_activity": "Monitor coffee plants for pests and diseases."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Showers", "recommended_activity": "Monitor coffee plants for pests and diseases." },
+              "February": { "prediction": "Cloudy", "recommended_activity": "Prune coffee plants for better yield." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Apply fertilizer and mulch coffee plants." },
+              "April": { "prediction": "Showers", "recommended_activity": "Monitor coffee plants for pests and diseases." },
+              "May": { "prediction": "Cloudy", "recommended_activity": "Prune coffee plants for better yield." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Apply fertilizer and mulch coffee plants." },
+              "July": { "prediction": "Showers", "recommended_activity": "Monitor coffee plants for pests and diseases." },
+              "August": { "prediction": "Cloudy", "recommended_activity": "Prune coffee plants for better yield." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Apply fertilizer and mulch coffee plants." },
+              "October": { "prediction": "Showers", "recommended_activity": "Monitor coffee plants for pests and diseases." },
+              "November": { "prediction": "Cloudy", "recommended_activity": "Prune coffee plants for better yield." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Apply fertilizer and mulch coffee plants." }
+            }
+          },
+          {
             "id": 43,
             "location": "Marsabit",
-            "prediction": "Hot and Dry",
-            "recommended_activity": "Ensure livestock have adequate water and shade."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Hot and Dry", "recommended_activity": "Ensure livestock have adequate water and shade." },
+              "February": { "prediction": "Extremely Hot", "recommended_activity": "Stockpile fodder for livestock." },
+              "March": { "prediction": "Hot and Dry", "recommended_activity": "Encourage water harvesting techniques." },
+              "April": { "prediction": "Hot and Dry", "recommended_activity": "Ensure livestock have adequate water and shade." },
+              "May": { "prediction": "Extremely Hot", "recommended_activity": "Stockpile fodder for livestock." },
+              "June": { "prediction": "Hot and Dry", "recommended_activity": "Encourage water harvesting techniques." },
+              "July": { "prediction": "Hot and Dry", "recommended_activity": "Ensure livestock have adequate water and shade." },
+              "August": { "prediction": "Extremely Hot", "recommended_activity": "Stockpile fodder for livestock." },
+              "September": { "prediction": "Hot and Dry", "recommended_activity": "Encourage water harvesting techniques." },
+              "October": { "prediction": "Hot and Dry", "recommended_activity": "Ensure livestock have adequate water and shade." },
+              "November": { "prediction": "Extremely Hot", "recommended_activity": "Stockpile fodder for livestock." },
+              "December": { "prediction": "Hot and Dry", "recommended_activity": "Encourage water harvesting techniques." }
+            }
+          },
+          {
             "id": 44,
             "location": "Wajir",
-            "prediction": "Extremely Hot",
-            "recommended_activity": "Opt for heat-resistant crops and sustainable water use."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Extremely Hot", "recommended_activity": "Opt for heat-resistant crops and sustainable water use." },
+              "February": { "prediction": "Hot and Dry", "recommended_activity": "Ensure proper irrigation for crops." },
+              "March": { "prediction": "Extremely Hot", "recommended_activity": "Use shade nets for crops to reduce heat stress." },
+              "April": { "prediction": "Extremely Hot", "recommended_activity": "Opt for heat-resistant crops and sustainable water use." },
+              "May": { "prediction": "Hot and Dry", "recommended_activity": "Ensure proper irrigation for crops." },
+              "June": { "prediction": "Extremely Hot", "recommended_activity": "Use shade nets for crops to reduce heat stress." },
+              "July": { "prediction": "Extremely Hot", "recommended_activity": "Opt for heat-resistant crops and sustainable water use." },
+              "August": { "prediction": "Hot and Dry", "recommended_activity": "Ensure proper irrigation for crops." },
+              "September": { "prediction": "Extremely Hot", "recommended_activity": "Use shade nets for crops to reduce heat stress." },
+              "October": { "prediction": "Extremely Hot", "recommended_activity": "Opt for heat-resistant crops and sustainable water use." },
+              "November": { "prediction": "Hot and Dry", "recommended_activity": "Ensure proper irrigation for crops." },
+              "December": { "prediction": "Extremely Hot", "recommended_activity": "Use shade nets for crops to reduce heat stress." }
+            }
+          },
+          {
             "id": 45,
             "location": "Murang’a",
-            "prediction": "Cool and Cloudy",
-            "recommended_activity": "Prune coffee and tea plants for better yields."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Cool and Cloudy", "recommended_activity": "Prune coffee and tea plants for better yields." },
+              "February": { "prediction": "Cloudy", "recommended_activity": "Monitor for fungal diseases in tea plantations." },
+              "March": { "prediction": "Showers", "recommended_activity": "Apply fertilizer to tea and coffee plants." },
+              "April": { "prediction": "Cool and Cloudy", "recommended_activity": "Prune coffee and tea plants for better yields." },
+              "May": { "prediction": "Cloudy", "recommended_activity": "Monitor for fungal diseases in tea plantations." },
+              "June": { "prediction": "Showers", "recommended_activity": "Apply fertilizer to tea and coffee plants." },
+              "July": { "prediction": "Cool and Cloudy", "recommended_activity": "Prune coffee and tea plants for better yields." },
+              "August": { "prediction": "Cloudy", "recommended_activity": "Monitor for fungal diseases in tea plantations." },
+              "September": { "prediction": "Showers", "recommended_activity": "Apply fertilizer to tea and coffee plants." },
+              "October": { "prediction": "Cool and Cloudy", "recommended_activity": "Prune coffee and tea plants for better yields." },
+              "November": { "prediction": "Cloudy", "recommended_activity": "Monitor for fungal diseases in tea plantations." },
+              "December": { "prediction": "Showers", "recommended_activity": "Apply fertilizer to tea and coffee plants." }
+            }
+          },
+          {
             "id": 46,
             "location": "Kirinyaga",
-            "prediction": "Rainy",
-            "recommended_activity": "Ensure rice paddies have proper water levels."
-        },
-        {
+            "monthly_forecast": {
+              "January": { "prediction": "Rainy", "recommended_activity": "Ensure rice paddies have proper water levels." },
+              "February": { "prediction": "Cloudy", "recommended_activity": "Monitor rice fields for pest infestations." },
+              "March": { "prediction": "Showers", "recommended_activity": "Apply organic manure to rice fields." },
+              "April": { "prediction": "Rainy", "recommended_activity": "Ensure rice paddies have proper water levels." },
+              "May": { "prediction": "Cloudy", "recommended_activity": "Monitor rice fields for pest infestations." },
+              "June": { "prediction": "Showers", "recommended_activity": "Apply organic manure to rice fields." },
+              "July": { "prediction": "Rainy", "recommended_activity": "Ensure rice paddies have proper water levels." },
+              "August": { "prediction": "Cloudy", "recommended_activity": "Monitor rice fields for pest infestations." },
+              "September": { "prediction": "Showers", "recommended_activity": "Apply organic manure to rice fields." },
+              "October": { "prediction": "Rainy", "recommended_activity": "Ensure rice paddies have proper water levels." },
+              "November": { "prediction": "Cloudy", "recommended_activity": "Monitor rice fields for pest infestations." },
+              "December": { "prediction": "Showers", "recommended_activity": "Apply organic manure to rice fields." }
+            }
+          },
+          {
             "id": 47,
             "location": "Tharaka Nithi",
-            "prediction": "Cloudy",
-            "recommended_activity": "Encourage soil conservation and intercropping."
-        }        
-    ]
-    
+            "monthly_forecast": {
+              "January": { "prediction": "Cloudy", "recommended_activity": "Encourage soil conservation and intercropping." },
+              "February": { "prediction": "Cool", "recommended_activity": "Plant drought-tolerant crops like millet." },
+              "March": { "prediction": "Rainy", "recommended_activity": "Apply mulch to conserve soil moisture." },
+              "April": { "prediction": "Cloudy", "recommended_activity": "Encourage soil conservation and intercropping." },
+              "May": { "prediction": "Cool", "recommended_activity": "Plant drought-tolerant crops like millet." },
+              "June": { "prediction": "Rainy", "recommended_activity": "Apply mulch to conserve soil moisture." },
+              "July": { "prediction": "Cloudy", "recommended_activity": "Encourage soil conservation and intercropping." },
+              "August": { "prediction": "Cool", "recommended_activity": "Plant drought-tolerant crops like millet." },
+              "September": { "prediction": "Rainy", "recommended_activity": "Apply mulch to conserve soil moisture." },
+              "October": { "prediction": "Cloudy", "recommended_activity": "Encourage soil conservation and intercropping." },
+              "November": { "prediction": "Cool", "recommended_activity": "Plant drought-tolerant crops like millet." },
+              "December": { "prediction": "Rainy", "recommended_activity": "Apply mulch to conserve soil moisture." }
+            }
+          }       
+    ],
+    "tools": [
+    {
+      "tool_id": 1,
+      "tool_name": "Drip Irrigation System",
+      "recommended_for": ["Use drip irrigation and shade nets for crops.", "Store water for irrigation.", "Ensure proper irrigation for crops."],
+      "price_kes": 25000
+    },
+    {
+      "tool_id": 2,
+      "tool_name": "Mulching Sheets",
+      "recommended_for": ["Irrigation and mulching to conserve moisture.", "Mulching helps retain soil moisture.", "Apply mulch to conserve soil moisture."],
+      "price_kes": 5000
+    },
+    {
+      "tool_id": 3,
+      "tool_name": "Plow and Harrow",
+      "recommended_for": ["Ideal for land preparation and crop rotation.", "Prepare soil for planting.", "Prepare fields for next planting season."],
+      "price_kes": 15000
+    },
+    {
+      "tool_id": 4,
+      "tool_name": "Greenhouse",
+      "recommended_for": ["Plant frost-resistant crops and use greenhouses.", "Use shade nets for crops.", "Use shade nets for young plants."],
+      "price_kes": 120000
+    },
+    {
+      "tool_id": 5,
+      "tool_name": "Windbreak Fencing",
+      "recommended_for": ["Secure farm structures and protect young plants.", "Protect young plants from strong winds.", "Use windbreaks to protect crops."],
+      "price_kes": 10000
+    },
+    {
+      "tool_id": 6,
+      "tool_name": "Water Pumps",
+      "recommended_for": ["Harvest rainwater for irrigation during dry spells.", "Store water for livestock and crops.", "Stock water points for livestock."],
+      "price_kes": 18000
+    },
+    {
+      "tool_id": 7,
+      "tool_name": "Pruning Shears",
+      "recommended_for": ["Prune coffee plants for optimal growth.", "Prune coffee and tea plants for better yields.", "Maintain tea plantations and prune old branches."],
+      "price_kes": 2000
+    },
+    {
+      "tool_id": 8,
+      "tool_name": "Pest Traps and Sprayers",
+      "recommended_for": ["Monitor for fungal diseases in maize and beans.", "Monitor for pest infestations on fruits.", "Monitor coconut plantations for pests."],
+      "price_kes": 7500
+    },
+    {
+      "tool_id": 9,
+      "tool_name": "Compost Spreader",
+      "recommended_for": ["Apply fertilizer and mulch coffee plants.", "Apply organic manure to rice fields.", "Apply top dressing fertilizer on maize fields."],
+      "price_kes": 22000
+    },
+    {
+      "tool_id": 10,
+      "tool_name": "Rice Paddies Drainage System",
+      "recommended_for": ["Ensure proper drainage for rice fields.", "Encourage rice farming in lowland areas.", "Ideal time for rice cultivation."],
+      "price_kes": 30000
+    },
+    {
+      "tool_id": 11,
+      "tool_name": "Fodder Cutter and Storage",
+      "recommended_for": ["Store fodder for livestock.", "Stockpile fodder for livestock.", "Maintain pastures and plant new fodder."],
+      "price_kes": 15000
+    },
+    {
+      "tool_id": 12,
+      "tool_name": "Borehole Drilling Equipment",
+      "recommended_for": ["Dig boreholes for sustainable water supply.", "Encourage water harvesting techniques.", "Ensure livestock have adequate water and shade."],
+      "price_kes": 250000
+    }
+  ],
+  "cart": [
+    {
+      "cart_id": 1,
+      "tool_id": 1,
+      "tool_name": "Drip Irrigation System",
+      "quantity": 2,
+      "price_per_unit": 25000,
+      "total_price": 50000
+    },
+    {
+      "cart_id": 2,
+      "tool_id": 2,
+      "tool_name": "Mulching Sheets",
+      "quantity": 5,
+      "price_per_unit": 5000,
+      "total_price": 25000
+    },
+    {
+      "cart_id": 3,
+      "tool_id": 3,
+      "tool_name": "Plow and Harrow",
+      "quantity": 1,
+      "price_per_unit": 15000,
+      "total_price": 15000
+    }
+  ]
 }
