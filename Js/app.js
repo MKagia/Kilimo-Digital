@@ -1,3 +1,19 @@
+const imageMap = {
+    "Drip Irrigation System": "./images/Drip irrigation.png",
+    "Mulching Sheets": "./images/Mulching.png",
+    "Plow and Harrow": "./images/Plow and Hurrow.jpg",
+    "Greenhouse": "./images/Greenhouse-jpg.webp",
+    "Windbreak Fencing": "./images/wind breaker.jpg",
+    "Water Pumps": "./images/Water Pump.jpg",
+    "Pruning Shears": "./images/Pruning-sheers.webp",
+    "Pest Traps and Sprayers": "./images/sprayer.jpg",
+    "Compost Spreader": "./images/Spreader Compost.jpg",
+    "Rice Paddies Drainage System": "./images/Paddy_field_and_Drainage.jpg",
+    "Fodder Cutter and Storage": "./images/Chuff Cutter.png",
+    "Borehole Drilling Equipment": "./images/Borehole Drilling.png"
+};
+
+
 document.addEventListener("DOMContentLoaded", async () => {
     const tools = await getTools();
     console.log(tools);
@@ -21,9 +37,11 @@ function renderTools(tools = []) {
     const toolsContainer = document.querySelector("#tools");
 
     tools.forEach((tool) => {
+        const imageUrl = imageMap[tool.tool_name] || "https://placehold.co/400x400";
+
         toolsContainer.innerHTML += `
             <div class="card col-4 my-2 mx-auto" style="width: 15rem;">
-                <img src="https://placehold.co/400x400" class="card-img-top" alt="Tool Image">
+                <img src="${imageUrl}" class="card-img-top" alt="${tool.tool_name}">
                 <div class="card-body">
                     <h5 class="card-title">${tool.tool_name}</h5>
                     <p class="card-text">${tool.price_kes} Ksh</p>
@@ -73,34 +91,32 @@ async function getLocationWeather() {
         const response = await fetch("http://localhost:3000/Counties");
         const data = await response.json();
 
-        console.log("Fetched Data:", data); // Debugging - Log fetched JSON
+        console.log("Fetched Data:", data);
 
-        // Find the county by location name
-        const county = data.location.find(county => county.location.toLowerCase() === locationInput.toLowerCase());
+        console.log("Available Keys in Data:", Object.keys(data));
 
-        console.log("Matched County:", county); // Debugging - Log found county
+        const county = data.find(county => county.location.toLowerCase() === locationInput.toLowerCase());
+
+        console.log("Matched County:", county);
 
         if (!county) {
             alert("Location not found. Please enter a valid county.");
             return;
         }
 
-        // Get the current month
         const currentMonth = new Date().toLocaleString('en-US', { month: 'long' });
 
-        console.log("Current Month:", currentMonth); // Debugging - Log current month
+        console.log("Current Month:", currentMonth);
 
-        // Get weather and activity recommendation for the current month
         const forecast = county.monthly_forecast[currentMonth];
 
-        console.log("Forecast Data:", forecast); // Debugging - Log forecast data
+        console.log("Forecast Data:", forecast);
 
         if (!forecast) {
             alert("Weather data not available for this location.");
             return;
         }
 
-        // Display the data in a table
         displayWeatherTable(county.location, currentMonth, forecast.prediction, forecast.recommended_activity);
 
     } catch (error) {
@@ -111,7 +127,7 @@ async function getLocationWeather() {
 function displayWeatherTable(location, month, prediction, activity) {
     const weatherReportDiv = document.querySelector("#weatherReport");
 
-    // Create the table if it doesn't exist
+
     if (!document.querySelector("#weatherTable")) {
         weatherReportDiv.innerHTML = `
             <table id="weatherTable" class="table">
@@ -130,7 +146,6 @@ function displayWeatherTable(location, month, prediction, activity) {
 
     const tableBody = document.querySelector("#weatherTable tbody");
 
-    // Add the new row
     tableBody.innerHTML = `
         <tr>
             <td>${location}</td>
