@@ -25,6 +25,10 @@
     color: white;
 }
 
+.logo a {
+    text-decoration: none;
+}
+
 li {
     list-style: none;
     display: inline-block;
@@ -58,4 +62,34 @@ button a {
     height: 200px;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.nav-div ul li a:hover, 
+button a:hover {
+    color: #ffeb3b;
+    transition: color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #ff7f00;
+}
+
+
+.weather-container{
+    width: 900px;
+    margin: auto;
+    max-width: 90vw;
+    text-align: center;
+    padding-top: 10px;
+    transition: transform .5s;
+}
+svg{
+    width: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
 }
