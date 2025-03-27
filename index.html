@@ -15,8 +15,7 @@
 				<li><a href="#">Products</a></li>
 				<li><a href="#">About Us</a></li>
 				<li><a href="#">Contact Us</a></li>
-				<button><a href="#">SignIn</a></button>
-				<button><a href="#">SignUp</a></button>
+                <button><a href="#">SignIn</a></button>
 			</ul>
 		</div>
 	</nav>
@@ -24,31 +23,20 @@
     <div class="weather-container">
         <P>Get Instant Climate Data</P>
         <input type="text" id="location" placeholder="Enter Location">
-        <button onclick="getWeather()" class="btn btn-success btn-sm">Get Weather Report</button>
+        <button id="getWeatherbtn" class="btn btn-success btn-sm">Get Weather Report</button>
     </div>
 
 
-    <table class="table my-4">
-        <thead>
-            <tr>
-                <th>#</th>
-                <th>No.</th>
-                <th>Location</th>
-                <th>Weather Prediction</th>
-                <th>Recommended Activity</th>
-            </tr>
-        </thead>
-        <tbody id="cart">
-            
-        </tbody>
-    </table>
+    <div id="weatherReport">
+
+    </div>
 
 
 
     <div class="container">
 
         <div class="row" id="tools">
-            <div class="card col-4 mx-3" style="width: 15rem;">
+            <!-- <div class="card col-4 mx-3" style="width: 15rem;">
                 <img src="https://placehold.co/400" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title"> Item Name</h5>
@@ -80,13 +68,13 @@
                   <button class="btn btn-primary btn-sm">Add to Cart</button>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <table class="table my-4">
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>Item</th>
+                    <th>Tool</th>
                     <th>Price</th>
                     <th>Quantity</th>
                     <th>Total</th>
