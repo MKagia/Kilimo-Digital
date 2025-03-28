@@ -13,8 +13,25 @@ const imageMap = {
     "Borehole Drilling Equipment": "./images/Borehole Drilling.png"
 };
 
+function signIn() {
+    const defaultCredentials = {
+        username: "briankagia",
+        password: "1234"
+    };
+
+    const inputUsername = prompt("Enter Username:");
+    const inputPassword = prompt("Enter Password:");
+
+    if (inputUsername === defaultCredentials.username && inputPassword === defaultCredentials.password) {
+        alert("Login Successful! Welcome, " + defaultCredentials.username);
+    } else {
+        alert("Incorrect username or password. Please try again.");
+    }
+}
 
 document.addEventListener("DOMContentLoaded", async () => {
+    document.getElementById("signInBtn").addEventListener("click", signIn);
+
     const tools = await getTools();
     console.log(tools);
     renderTools(tools);

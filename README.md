@@ -4,17 +4,17 @@ Kilimo-Digital is a Single Page Application (SPA) designed to empower farmers wi
 # Features
 Weather Forecasting & Smart Farming Recommendations
 Live Weather Updates – Provides up-to-date climate information based on the farmer's selected county.
-County-Based Weather Forecasts – Uses a JSON file to store weather predictions for different counties.
+County-Based Weather Forecasts – Uses a JSON file to store monthly weather predictions for different counties.
 Crop Recommendations – Suggests the best crops to plant based on weather conditions and location.
 Farming Activity Guide – Offers guidance on farming activities suitable for different weather conditions (e.g., irrigation on dry days, pest control on humid days).
 
 # E-commerce for Farming Tools
-Online Store – Farmers can browse through a collection of essential farming tools.
+Online Store – Farmers can browse through a collection of essential farming tools and equipment.
 Shopping Cart – Users can add items to their cart, modify quantities, and remove items.
 Checkout Process – Farmers can finalize their purchases for efficient farm management.
 Image Integration – Each product is displayed with an image for easy identification.
 Interactive User Experience
-Search Functionality – Users can search for weather data based on location.
+Search Functionality – Users can search for weather data based on location (counties).
 Dynamic Content Rendering – Tools and weather updates are dynamically displayed using JavaScript.
 User-Friendly Interface – The platform is designed with an intuitive UI to ensure ease of use for all farmers.
 
@@ -30,6 +30,7 @@ View recommended farming activities and crop suggestions based on the weather co
 Browse available farming tools in the store and add desired items to your shopping cart.
 Adjust the quantity of tools in your cart and proceed to checkout.
 Explore additional farming resources and best practices.
+
 # Future Enhancements
 Live Weather API Integration – Replace JSON-based forecasts with real-time weather API data.
 User Authentication – Enable farmers to create accounts for personalized recommendations and saved preferences.
