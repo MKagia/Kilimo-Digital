@@ -68,31 +68,8 @@ function renderTools(tools = []) {
         `;
     });
 
-    // document.querySelectorAll(".btn-add").forEach((button) => {
-    //     button.addEventListener("click", (event) => {
-    //         const toolId = event.target.id;
-    //         const tool = tools.find(t => t.tool_id == toolId);
-    //         if (tool) displayItemToCart(tool);
-    //     });
-    // });
 }
 
-// function displayItemToCart(tool, quantity = 1) {
-//     const cartContainer = document.querySelector("tbody#cart");
-
-//     cartContainer.innerHTML += `
-//         <tr>
-//             <td>${tool.tool_id}</td>
-//             <td>${tool.tool_name}</td>
-//             <td>${tool.price_kes} Ksh</td>
-//             <td>${quantity}</td>
-//             <td>${tool.price_kes * quantity} Ksh</td>
-//             <td>
-//                 <button id='remove-${tool.tool_id}' class="btn btn-sm btn-danger btn-remove">x</button>
-//             </td>
-//         </tr>
-//     `;
-// }
 
 function displayItemToCart(tool, quantity = 1) {
     const cartContainer = document.querySelector("tbody#cart");
