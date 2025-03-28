@@ -43,6 +43,13 @@ document.addEventListener("DOMContentLoaded", async () => {
             if (tool) displayItemToCart(tool);
         }
     });
+
+    document.querySelector("tbody#cart").addEventListener("click", (event) => {
+        if (event.target.classList.contains("btn-remove")) {
+            const row = event.target.closest("tr");
+            row.remove();
+        }
+    });
 });
 
 async function getTools() {
@@ -98,6 +105,7 @@ function displayItemToCart(tool, quantity = 1) {
             </tr>
         `;
     }
+    
 }
 
 
