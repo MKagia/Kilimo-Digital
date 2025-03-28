@@ -68,30 +68,59 @@ function renderTools(tools = []) {
         `;
     });
 
-    document.querySelectorAll(".btn-add").forEach((button) => {
-        button.addEventListener("click", (event) => {
-            const toolId = event.target.id;
-            const tool = tools.find(t => t.tool_id == toolId);
-            if (tool) displayItemToCart(tool);
-        });
-    });
+    // document.querySelectorAll(".btn-add").forEach((button) => {
+    //     button.addEventListener("click", (event) => {
+    //         const toolId = event.target.id;
+    //         const tool = tools.find(t => t.tool_id == toolId);
+    //         if (tool) displayItemToCart(tool);
+    //     });
+    // });
 }
+
+// function displayItemToCart(tool, quantity = 1) {
+//     const cartContainer = document.querySelector("tbody#cart");
+
+//     cartContainer.innerHTML += `
+//         <tr>
+//             <td>${tool.tool_id}</td>
+//             <td>${tool.tool_name}</td>
+//             <td>${tool.price_kes} Ksh</td>
+//             <td>${quantity}</td>
+//             <td>${tool.price_kes * quantity} Ksh</td>
+//             <td>
+//                 <button id='remove-${tool.tool_id}' class="btn btn-sm btn-danger btn-remove">x</button>
+//             </td>
+//         </tr>
+//     `;
+// }
 
 function displayItemToCart(tool, quantity = 1) {
     const cartContainer = document.querySelector("tbody#cart");
+    const existingRow = document.querySelector(`#cart tr[data-id='${tool.tool_id}']`);
 
-    cartContainer.innerHTML += `
-        <tr>
-            <td>${tool.tool_id}</td>
-            <td>${tool.tool_name}</td>
-            <td>${tool.price_kes} Ksh</td>
-            <td>${quantity}</td>
-            <td>${tool.price_kes * quantity} Ksh</td>
-            <td>
-                <button id='remove-${tool.tool_id}' class="btn btn-sm btn-danger btn-remove">x</button>
-            </td>
-        </tr>
-    `;
+    if (existingRow) {
+        
+        const quantityCell = existingRow.querySelector(".item-quantity");
+        const totalCell = existingRow.querySelector(".item-total");
+
+        let newQuantity = parseInt(quantityCell.textContent) + 1;
+        quantityCell.textContent = newQuantity;
+        totalCell.textContent = `${tool.price_kes * newQuantity} Ksh`;
+    } else {
+        
+        cartContainer.innerHTML += `
+            <tr data-id="${tool.tool_id}">
+                <td>${tool.tool_id}</td>
+                <td>${tool.tool_name}</td>
+                <td>${tool.price_kes} Ksh</td>
+                <td class="item-quantity">${quantity}</td>
+                <td class="item-total">${tool.price_kes * quantity} Ksh</td>
+                <td>
+                    <button id='remove-${tool.tool_id}' class="btn btn-sm btn-danger btn-remove">x</button>
+                </td>
+            </tr>
+        `;
+    }
 }
 
 
@@ -174,3 +203,16 @@ function displayWeatherTable(location, month, prediction, activity) {
 
     console.log("Table Updated Successfully!");
 }
+
+
+
+let iconCart = document.querySelector('.icon-cart');
+let body = document.querySelector('body');
+let closeCart = document.querySelector('.close');
+
+iconCart.addEventListener('click', () => {
+    body.classList.toggle('showCart');
+})
+closeCart.addEventListener('click', () => {
+    body.classList.toggle('showCart');
+})

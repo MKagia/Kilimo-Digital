@@ -908,7 +908,7 @@
     {
       "tool_id": 1,
       "tool_name": "Drip Irrigation System",
-      "quantity": 2,
+      "quantity": 1,
       "price_per_unit": 25000,
       "total_price": 50000
     },
